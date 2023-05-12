@@ -1,36 +1,43 @@
-# Welcome to the Beginning Python Course 🐍
+# Welcome to the Beginning JavaScript Course 🚀
 
-Are you ready to dive into the world of programming and learn Python? Then, this course is for you!
+Are you ready to embark on a journey into the world of JavaScript programming? If so, you've come to the right place!
 
-This repo is a companion to the videos on [Coding With Mr Ward](https://www.youtube.com/watch?v=eVrM5WsMgrk&list=PL-NaYeCEwvWjZIC7aTKUvQwb-_1Sy8a4A)
+This repository serves as a companion to the videos on [Coding With Mr Ward](https://www.youtube.com/watch?v=examplevideo), where you can follow along and learn JavaScript step by step.
 
 # Course Overview 📚
 
-In this course, you will learn the basics of Python programming language and its concepts such as data types, variables, loops, functions, etc. You will also learn how to write and run simple programs and solve real-world problems.
+In this course, you will learn the fundamentals of JavaScript programming language. You will dive into concepts such as variables, data types, conditionals, loops, functions, and more. Through practical examples and exercises, you will gain hands-on experience in writing JavaScript code and solving real-world problems.
 
-# Setting Up Python in Visual Studio Code 💻
+# Setting Up JavaScript Development Environment 💻
 
-To get started with Python in Visual Studio Code, follow these steps:
+To get started with JavaScript development, you'll need to set up a few tools. Follow the steps below to install Node.js, Visual Studio Code, and Git:
 
-- Open Visual Studio Code and create a new file with a .py extension.
-- Install the Python extension for Visual Studio Code.
-- Open the command pallette with `Ctl + shift + p`
-- Change the default shell to `bash` by searching for `Terminal: Select Default Profile` in the command pallette 
-- Start writing and running your Python code!
+## 1. Install Node.js
 
-And that's it! You are now ready to start coding in Python with Visual Studio Code. Happy coding! 🎉
+Node.js is a JavaScript runtime that allows you to run JavaScript code outside of a web browser. It provides a rich set of libraries and tools for building JavaScript applications.
 
-If you have any questions or issues during the setup, don't hesitate to reach out to the instructor. Good luck! 💪
+To install Node.js visit the [official Node.js website](https://nodejs.org), download the installer, and run it. Follow the installation wizard to complete the setup.
+
+After installing Node.js, you can verify the installation by opening a terminal and running the following command:
+
+```bash
+node --version
+```
+
+If the command displays the version number of Node.js, you have successfully installed it.
 
 # About this repo
 
-This repo contains all the tasks that you need to complete on the side. You will find the instructions at the top of each file. 
+This repository contains all the tasks and exercises that you need to complete alongside the course. Each file will have instructions at the top explaining the task.
 
 ## Testing
-Although you can complete these exercises without tests, they can be helpful to make sure your code works as expected. 
 
-Tests live in the testing folder and you will need to install pytest to run them. `pip install pytest`
+While it is not mandatory, tests can be beneficial in verifying that your code functions as expected. You can find tests in the testing folder, and you will need to install a testing framework like Jest to run them. To install Jest, use the following command: `npm install jest`
 
-Once you think you have completed one of the tasks run the test for the file eg `python -m pytest tests/exercise-1/e1p1.py` in the command line.
+Once you believe you have completed a task, run the test for the file. For example, `npx jest tests/exercise-1/e1p1.js` in the command line.
 
-To run all the test in a folder run `python -m pytest tests/exercise-1`
+To run all the tests in a folder, use the command `npx jest tests/exercise-1`.
+
+Completing the exercises and running the tests will help solidify your understanding of JavaScript concepts and sharpen your programming skills.
+
+Feel free to explore the code, experiment, and have fun while learning JavaScript. Happy coding! 🚀

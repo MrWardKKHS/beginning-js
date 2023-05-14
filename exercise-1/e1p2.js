@@ -3,3 +3,5 @@
 Hello ____ 
 */
 import { question } from 'readline-sync'
+let name = question('What is your name\n')
+console.log(`Hello ${name}.`)

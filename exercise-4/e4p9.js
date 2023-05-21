@@ -12,3 +12,10 @@ radius		circumference		area
 etc
 (You can calculate circumference = 2 * 3.14 * radius and area = 3.14 * radius ** 2)
 */
+console.log("radius  circumference	area")
+for (let r=10; r<=100; r+=10){
+    let circumference = 2 * Math.PI * r
+    let area = Math.PI * r ** 2
+    console.log(`${r}      ${circumference.toFixed(2)}      ${area.toFixed(2)}` )
+}
+

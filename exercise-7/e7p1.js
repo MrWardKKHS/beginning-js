@@ -3,4 +3,14 @@
 and then prints a simple message using the variable and concatenation.
 
 Then do the same using a template string
- */
+*/
+
+import { question } from "readline-sync";
+
+let name = question("what is your name?")
+
+// concatenation
+console.log("Hello, " + name)
+
+// template string
+console.log(`Hello, ${name}`)
